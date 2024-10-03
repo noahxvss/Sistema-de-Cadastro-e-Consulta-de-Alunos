@@ -2,8 +2,8 @@
 // Definições de conexão ao banco de dados
 $host = 'localhost'; // Host do banco de dados
 $db = 'escola';      // Nome do banco de dados
-$user = 'joaquim';   // Usuário do banco de dados
-$pass = '123';       // Senha do usuário
+$user = 'noah';   // Usuário do banco de dados
+$pass = '123456';       // Senha do usuário
 $port = 3307;        // Porta de conexão
 
 try {
