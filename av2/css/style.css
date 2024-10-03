@@ -1,0 +1,111 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background: #f2f2f2; /* Cor de fundo */
+    margin: 0; /* Remove margens padrão */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo do formulário */
+form {
+    margin: 20px 0; /* Espaçamento superior e inferior */
+    padding: 20px; /* Espaçamento interno */
+    background: #fff; /* Fundo branco */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos rótulos */
+label {
+    margin-bottom: 8px; /* Espaçamento inferior */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo dos campos de entrada */
+input {
+    width: 100%; /* Largura total */
+    padding: 8px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: border-color 0.3s; /* Transição suave para a cor da borda */
+}
+
+/* Estilo do campo de entrada em foco */
+input:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilo do botão */
+button {
+    background: #4CAF50; /* Fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo do botão ao passar o mouse */
+button:hover {
+    background: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Remove espaços entre células */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo das células da tabela */
+th, td {
+    border: 1px solid #ddd; /* Borda cinza clara */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilo das linhas pares da tabela */
+tr:nth-child(even) {
+    background: #f9f9f9; /* Fundo cinza claro */
+}
+
+/* Estilo do cabeçalho da tabela */
+th {
+    background: #4CAF50; /* Fundo verde */
+    color: white; /* Texto branco */
+}
+
+/* Estilo das linhas ao passar o mouse */
+tr:hover {
+    background: #ddd; /* Fundo cinza ao passar o mouse */
+}
+
+/* Estilo dos links */
+a {
+    display: inline-block; /* Exibe como bloco em linha */
+    padding: 8px 12px; /* Espaçamento interno */
+    background: #007bff; /* Fundo azul */
+    color: #fff; /* Texto branco */
+    border-radius: 5px; /* Cantos arredondados */
+    text-decoration: none; /* Remove sublinhado */
+    text-align: center; /* Centraliza o texto */
+    transition: background 0.3s; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo do link ao passar o mouse */
+a:hover {
+    background: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo da coluna de ações */
+.acoes {
+    width: 200px; /* Largura fixa */
+    text-align: center; /* Centraliza o conteúdo */
+}
